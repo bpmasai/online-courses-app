@@ -2,31 +2,47 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Online Courses Explorer</title>
+    <!-- ***************** PAGE HEADER ***************-->
+<div class="page-header">
+    <h1>Department of Computer Science</h1>
+
+    <h3>
+        Programme Name: M.Sc AIML Online <br>
+        Course Name: Full Stack Development
+    </h3>
+
+    <h3>
+        Developed by: <strong>Brahm Panwar</strong> &nbsp;&nbsp;
+        Student No: <strong>25045028</strong>
+    </h3>
+
+    <!space -->
+    <div class="header-spacing"></div>
+</div>
+
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <h1>Online Courses Explorer</h1>
+    <h2 class="section-title">Online Courses Explorer</h2>
 
-    <!-- Filter + Sort Section -->
-    <div class="controls">
-        <select id="categoryFilter">
-            <option value="">All Categories</option>
-            <option value="Artificial Intelligence">Artificial Intelligence</option>
-            <option value="AI & ML">AI & ML</option>
-            <option value="Programming">Programming</option>
-            <option value="Cybersecurity">Cybersecurity</option>
-        </select>
 
-        <select id="sortOptions">
-            <option value="">Sort By</option>
-            <option value="rating">Rating</option>
-            <option value="price">Price</option>
-        </select>
 
-        <button onclick="applyFilters()">Apply</button>
-    </div>
+
+  <div class="controls">
+    <select id="categoryFilter">
+        <option value="">All Categories</option>
+       
+    </select>
+
+    <select id="sortOptions">
+        <option value="">Sort By</option>
+        <option value="rating">Rating</option>
+        <option value="price">Price</option>
+    </select>
+
+    <button onclick="applyFilters()">Apply</button>
+</div>
 
     <!-- Course List -->
     <div id="courseList"></div>
@@ -37,7 +53,8 @@
     <hr>
 
     <!-- Sign-up Form -->
-    <h2>Course Sign-Up Form</h2>
+   <h2 class="section-title">Course Sign-Up Form</h2>
+
 
     <form id="signupForm">
         <input type="text" id="name" placeholder="Your Name">

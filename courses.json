@@ -1,62 +1,52 @@
 [
   {
     "courseId": "C101",
-    "title": "Introduction to Artificial Inteligence",
-     "instructor": "Dr Helen K Joy",
+    "title": "Introduction to Artificial Intelligence",
+    "instructor": "Dr Helen K Joy",
     "duration": "10 hours",
     "rating": 4.5,
-    "category": "Artificial Intelegence",
-    "price": 10000,
-    "enrolled": 2500
+    "category": "Artificial Intelligence",
+    "price": "5000",
+    "enrolled": "2500"
   },
   {
     "courseId": "C102",
     "title": "Machine Learning Basics",
     "instructor": "Dr Nizar Banu",
-    "duration": "15 hours",
-    "rating": 4.8,
+    "duration": "12 hours",
+    "rating": 4.6,
     "category": "AI & ML",
-    "price": 10000,
-    "enrolled": 3100
+    "price": "6000",
+    "enrolled": "1800"
   },
   {
     "courseId": "C103",
     "title": "Introduction to Python Programming",
     "instructor": "Dr. Surabhi Saxena",
-    "duration": "12 hours",
-    "rating": 4.6,
+    "duration": "15 hours",
+    "rating": 4.7,
     "category": "Programming",
-    "price": 4000,
-    "enrolled": 4200
+    "price": "4000",
+    "enrolled": "3000"
   },
   {
     "courseId": "C104",
     "title": "Data Analysis with R",
-    "instructor": "Dr. Laxmi Basappa",
+    "instructor": "Dr. Joe David",
     "duration": "8 hours",
     "rating": 4.3,
     "category": "Data Science",
-    "price": 6000,
-    "enrolled": 1800
+    "price": "4500",
+    "enrolled": "2200"
   },
   {
     "courseId": "C105",
     "title": "Cloud Computing for Beginners",
-    "instructor": "Mark Spencer",
-    "duration": "9 hours",
+    "instructor": "Dr. Nina Brown",
+    "duration": "14 hours",
     "rating": 4.4,
     "category": "Cloud Computing",
-    "price": 6500,
-    "enrolled": 2700
-  },
-  {
-    "courseId": "C106",
-    "title": "Cybersecurity Fundamentals",
-    "instructor": "Nina Brown",
-    "duration": "11 hours",
-    "rating": 4.7,
-    "category": "Cybersecurity",
-    "price": 8000,
-    "enrolled": 3900
+    "price": "5500",
+    "enrolled": "1900"
   }
 ]

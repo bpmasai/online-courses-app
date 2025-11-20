@@ -1,53 +1,148 @@
+/* ============================
+
 body {
     font-family: Arial, sans-serif;
     margin: 20px;
     background: #f7f9fc;
+    color: #333;
 }
 
-h1, h2 {
+/* ***************************
+   PAGE HEADER
+============================ */
+.page-header {
     text-align: center;
-    color: #2a4d9b;
+    margin-top: 20px;
 }
 
+.page-header h1 {
+    font-size: 32px;
+    font-weight: bold;
+    color: #2a4d9b;
+    margin-bottom: 15px;
+}
+
+.page-header h3 {
+    font-size: 18px;
+    color: #444;
+    font-weight: normal;
+    margin: 6px 0;
+}
+
+/* blank line space */
+.header-spacing {
+    height: 60px;
+}
+
+/* CENTER SECTION TITLES******* */
+.section-title {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 26px;
+    color: #2a4d9b;
+    font-weight: bold;
+}
+/* ***************************
+   FILTER CONTROLS
+============================ */
 .controls {
     text-align: center;
     margin-bottom: 20px;
 }
 
-.controls select, .controls button {
+.controls select {
     padding: 10px;
     margin: 5px;
+    font-size: 14px;
 }
 
-.card {
-    background: white;
-    padding: 15px;
-    margin: 10px;
-    border-radius: 6px;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+.controls button {
+    padding: 10px 16px;
+    margin: 5px;
+    background-color: #2a4d9b;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+    border-radius: 4px;
 }
 
+.controls button:hover {
+    background-color: #1e3a73;
+}
+
+/* ***************************
+   COURSE CARDS
+============================ */
 #courseList {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
 
-#pagination button {
-    padding: 5px 10px;
-    margin: 2px;
+.card {
+    background: white;
+    padding: 15px;
+    margin: 10px;
+    width: 280px;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+    transition: 0.2s ease-in-out;
 }
 
+.card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+.card h3 {
+    color: #2a4d9b;
+    margin-bottom: 10px;
+}
+
+/* ***************************
+   PAGINATION
+============================ */
+#pagination {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#pagination button {
+    padding: 6px 12px;
+    margin: 3px;
+    background-color: #dfe6f3;
+    border: 1px solid #b5c3da;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+#pagination button:hover {
+    background-color: #b5c3da;
+}
+
+/* ***************************
+   SIGN-UP FORM
+============================ */
 #signupForm {
     display: flex;
     flex-direction: column;
-    max-width: 400px;
-    margin: auto;
+    max-width: 420px;
+    margin: 40px auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.15);
 }
 
-#signupForm input, #signupForm select {
+#signupForm input,
+#signupForm select {
     padding: 12px;
-    margin-bottom: 10px;
+    margin-bottom: 12px;
+    font-size: 15px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
 }
 
 #signupForm button {
@@ -56,4 +151,16 @@ h1, h2 {
     color: white;
     border: none;
     cursor: pointer;
+    font-size: 15px;
+    border-radius: 4px;
+}
+
+#signupForm button:hover {
+    background-color: #1e3a73;
+}
+
+#formMessage {
+    text-align: center;
+    font-size: 16px;
+    margin-top: 10px;
 }
