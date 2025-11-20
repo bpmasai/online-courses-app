@@ -1,8 +1,8 @@
 // =========================
 // Global Variables
 // =========================
-let courses = [];           // All courses from JSON
-let filteredCourses = [];   // 
+let courses = [];           
+let filteredCourses = [];   
 
 // =========================
 // Fetch courses.json and initialize
