@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Online Courses Explorer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Online Courses Explorer</h1>
+
+    <!-- Filter + Sort Section -->
+    <div class="controls">
+        <select id="categoryFilter">
+            <option value="">All Categories</option>
+            <option value="Artificial Intelligence">Artificial Intelligence</option>
+            <option value="AI & ML">AI & ML</option>
+            <option value="Programming">Programming</option>
+            <option value="Cybersecurity">Cybersecurity</option>
+        </select>
+
+        <select id="sortOptions">
+            <option value="">Sort By</option>
+            <option value="rating">Rating</option>
+            <option value="price">Price</option>
+        </select>
+
+        <button onclick="applyFilters()">Apply</button>
+    </div>
+
+    <!-- Course List -->
+    <div id="courseList"></div>
+
+    <!-- Pagination -->
+    <div id="pagination"></div>
+
+    <hr>
+
+    <!-- Sign-up Form -->
+    <h2>Course Sign-Up Form</h2>
+
+    <form id="signupForm">
+        <input type="text" id="name" placeholder="Your Name">
+        <input type="email" id="email" placeholder="Your Email">
+        <select id="courseSelect"></select>
+        <button type="submit">Register</button>
+    </form>
+
+    <p id="formMessage"></p>
+
+    <script src="script.js"></script>
+</body>
+</html>

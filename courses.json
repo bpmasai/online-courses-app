@@ -1,0 +1,62 @@
+[
+  {
+    "courseId": "C101",
+    "title": "Introduction to Artificial Inteligence",
+     "instructor": "Dr Helen K Joy",
+    "duration": "10 hours",
+    "rating": 4.5,
+    "category": "Artificial Intelegence",
+    "price": 10000,
+    "enrolled": 2500
+  },
+  {
+    "courseId": "C102",
+    "title": "Machine Learning Basics",
+    "instructor": "Dr Nizar Banu",
+    "duration": "15 hours",
+    "rating": 4.8,
+    "category": "AI & ML",
+    "price": 10000,
+    "enrolled": 3100
+  },
+  {
+    "courseId": "C103",
+    "title": "Introduction to Python Programming",
+    "instructor": "Dr. Surabhi Saxena",
+    "duration": "12 hours",
+    "rating": 4.6,
+    "category": "Programming",
+    "price": 4000,
+    "enrolled": 4200
+  },
+  {
+    "courseId": "C104",
+    "title": "Data Analysis with R",
+    "instructor": "Dr. Laxmi Basappa",
+    "duration": "8 hours",
+    "rating": 4.3,
+    "category": "Data Science",
+    "price": 6000,
+    "enrolled": 1800
+  },
+  {
+    "courseId": "C105",
+    "title": "Cloud Computing for Beginners",
+    "instructor": "Mark Spencer",
+    "duration": "9 hours",
+    "rating": 4.4,
+    "category": "Cloud Computing",
+    "price": 6500,
+    "enrolled": 2700
+  },
+  {
+    "courseId": "C106",
+    "title": "Cybersecurity Fundamentals",
+    "instructor": "Nina Brown",
+    "duration": "11 hours",
+    "rating": 4.7,
+    "category": "Cybersecurity",
+    "price": 8000,
+    "enrolled": 3900
+  }
+]
